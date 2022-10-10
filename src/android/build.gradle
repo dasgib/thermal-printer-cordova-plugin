@@ -5,5 +5,5 @@ allprojects {
 }
 
 dependencies {
-   implementation 'com.github.hwpkasse:ESCPOS-ThermalPrinter-Android:3.2.6'
+   implementation 'com.github.hwpkasse:ESCPOS-ThermalPrinter-Android:3.2.7'
 }
