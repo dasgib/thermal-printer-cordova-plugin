@@ -297,8 +297,8 @@ public class ThermalPrinterCordovaPlugin extends CordovaPlugin {
                     charsetEncodingData = new JSONObject();
                 }
                 charsetEncoding = new EscPosCharsetEncoding(
-                    charsetEncodingData.optString("charsetName", "windows-1252"),
-                    charsetEncodingData.optInt("charsetId", 16)
+                    charsetEncodingData.optString("charsetName", "UTF-8"),
+                    charsetEncodingData.optInt("charsetId", 255)
                 );
             }
         } catch (Exception exception) {
